@@ -1,4 +1,5 @@
 
+// Week 2 practice, inheritance.
 public class Person {
   public static int count = 0;
   public String firstName, lastName;
