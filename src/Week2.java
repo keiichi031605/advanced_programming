@@ -11,6 +11,7 @@ public class Week2 {
     // System.out.println(bird_a.greeting());
     // System.out.println(bird_a.fly());
 
+    
     Bird bird_b = new Eagle("Keiichi", "red");
     bird_database.add(bird_b);
     // System.out.println(bird_b.greeting());
