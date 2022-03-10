@@ -1,4 +1,5 @@
 
+	import java.util.Scanner;
 public class Week1 {
 	public static void main(String[] args) {
 //	    // no.1
@@ -29,5 +30,42 @@ public class Week1 {
 //	      num = i;
 //	
 //	    }
+
+			// while (true) {
+      //   System.out.println("1. Buy a travel pass");
+      //   System.out.println("2. Charge my MyTi");
+      //   System.out.println("3. Show remaining credit");
+      //   System.out.println("0. Quit");
+      //   System.out.println("Please make a selection:");
+        
+      //   Scanner mySelection = new Scanner(System.in);
+      //   try {
+
+      //     System.out.print("your selection: ");
+          
+      //     int input1 = mySelection.nextInt();
+      //     if (input1 == 1) {
+      //       System.out.println("selected 1");
+      //     } else if (input1 == 2) {
+      //       System.out.println("selected 2");
+      //     } else if (input1 == 3) {
+      //       System.out.println("selected 3");
+      //     } else if (input1 == 0) {
+      //       break; //terminate while loop
+      //     } else {
+      //       System.out.println("invalid integer")
+      //     }
+      //   } catch (Exception e) {
+      //     System.out.println("\nSorry, that is not an integer, which is an invalid option!\n");
+      //   }
+      //   mySelection.nextLine();
+				
+			// }
+		
+	
+
+////////////
+
+
 	}
 }
