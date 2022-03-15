@@ -16,11 +16,30 @@ public static void main(String[] args) {
     // SoftwareEngineer person3 = new SoftwareEngineer("Reece", "Arms", 28, 1.7, 65);
     // employees.add(person3);
 
-    for (int i = 0; i < employees.size(); i++) {
-      Person employee = employees.get(i);
-      employee.printData();
-      System.out.println("----------------------");
-    }
+    Vehicle car = new Car("TOYOTA", "Red");
+    Vehicle bicycle = new Bicycle("FUJI", "Gray");
+    
+    person1.buy(bicycle);
+    person2.buy(car);
+
+    System.out.println("Car Info");
+    car.printData();
+    System.out.println("-----------------");
+    System.out.println("Car Owner's Info");
+    car.getOwner().printData();
+
+    System.out.println("=================");
+    System.out.println("Bicycle Info");
+    bicycle.printData();
+    System.out.println("-----------------");
+    System.out.println("Bicycle Owner's Info");
+    bicycle.getOwner().printData();
+
+    // for (int i = 0; i < employees.size(); i++) {
+    //   Person employee = employees.get(i);
+    //   employee.printData();
+    //   System.out.println("----------------------");
+    // }
 
     
     Person.printCount();

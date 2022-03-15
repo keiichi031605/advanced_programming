@@ -61,4 +61,8 @@ public class Person {
   public static void printCount(){
     System.out.println("Total number of person is "+Person.count+".");
   }
+
+  public void buy(Vehicle vehicle) {
+    vehicle.setOwner(this);
+  }
 }
