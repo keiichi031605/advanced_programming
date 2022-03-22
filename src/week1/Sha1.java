@@ -15,7 +15,7 @@ public class Sha1 {
         // digest() method is called
         // to calculate message digest of the input string
         // returned as array of byte
-        byte[] messageDigest = md.digest(input.getBytes());
+        byte[] messageDigest = md.digest(input.c());
 
         // Convert byte array into signum representation
         BigInteger no = new BigInteger(1, messageDigest);

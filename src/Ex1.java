@@ -1,8 +1,8 @@
-package week1;
+
 import java.util.ArrayList;
 import java.util.Collections;
+public class Ex1 {
 
-public class Test {
 	public static void main(String[] args) {
     ArrayList<Integer> myArrayList = new ArrayList<Integer>();
     myArrayList.add(3);
@@ -26,4 +26,3 @@ public class Test {
     System.out.println("Minimum value is: " + minValue);
   }
 }
-
