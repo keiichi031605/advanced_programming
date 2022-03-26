@@ -27,5 +27,4 @@ public class TestAccount {
 	public void test() {
 		assertEquals(2300.0, a.getBalance(),0);
 	}
-
 }
