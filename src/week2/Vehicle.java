@@ -1,3 +1,4 @@
+package week2;
 abstract class Vehicle {
   private String name;
   private String color;

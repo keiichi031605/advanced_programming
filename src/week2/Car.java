@@ -1,3 +1,4 @@
+package week2;
 class Car extends Vehicle {
   private int fuel = 50;
 

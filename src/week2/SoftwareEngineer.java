@@ -1,3 +1,4 @@
+package week2;
 
 // public class SoftwareEngineer extends Person {
 //   SoftwareEngineer(String firstName, String lastName, int age, double height, double weight) {

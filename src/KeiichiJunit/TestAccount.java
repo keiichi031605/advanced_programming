@@ -16,7 +16,7 @@ public class TestAccount {
 
 	@Before
 	public void setUp() throws Exception {
-		a = new DepositAccount("A1","Suneo", 2300.00);
+		a = new DepositAccount("A1","Keiichi", 2300.00);
 	}
 
 	@After

@@ -1,3 +1,4 @@
+package week2;
 
 // Week 2 practice, inheritance.
 public class Person {
