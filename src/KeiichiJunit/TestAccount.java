@@ -11,7 +11,6 @@ import week4.DepositAccount;
 public class TestAccount {
 	Account a;
 
-
 	@Before
 	public void setUp() throws Exception {
 		a = new DepositAccount("A1","Keiichi", 2000.00);
